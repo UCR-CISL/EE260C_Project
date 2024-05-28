@@ -32,7 +32,7 @@ class HumanInterface(object):
         pygame.font.init()
         self._clock = pygame.time.Clock()
         self._display = pygame.display.set_mode((self._width, self._height), pygame.HWSURFACE | pygame.DOUBLEBUF)
-        pygame.display.set_caption("Human Agent")
+        pygame.display.set_caption("NPC Agent")
 
     def run_interface(self, input_data):
         """
